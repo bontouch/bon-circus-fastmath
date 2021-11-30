@@ -1,7 +1,4 @@
 //
-//  fastmath.h
-//  fastmath
-//
 //  Created by Roland Persson on 2021-11-30.
 //
 

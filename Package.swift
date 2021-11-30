@@ -20,7 +20,7 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
             name: "bon_fastmath", 
-            url: "https://github.com/bontouch/bon-circus-fastmath/files/7629347/bon_fastmath.xcframework.zip", 
-            checksum: "6695493c8aab720e2472e10707a582c555f9f4475f747e0890bf22497139f293")
+            url: "https://github.com/bontouch/bon-circus-fastmath/files/7629389/bon_fastmath.xcframework.zip", 
+            checksum: "02feb26b8b09c129be1c08871d0a1fb956bacc411032231d938f020313fb3b76")
     ]
 )
