@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A5017312756B68700692B16 /* fastmath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5017302756B68700692B16 /* fastmath.m */; };
-		2A5017322756B68700692B16 /* fastmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A50172F2756B68700692B16 /* fastmath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5017312756B68700692B16 /* bon_fastmath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5017302756B68700692B16 /* bon_fastmath.m */; };
+		2A5017322756B68700692B16 /* bon_fastmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A50172F2756B68700692B16 /* bon_fastmath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,8 +25,8 @@
 
 /* Begin PBXFileReference section */
 		2A50172C2756B68700692B16 /* libbon_fastmath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbon_fastmath.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A50172F2756B68700692B16 /* fastmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fastmath.h; sourceTree = "<group>"; };
-		2A5017302756B68700692B16 /* fastmath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fastmath.m; sourceTree = "<group>"; };
+		2A50172F2756B68700692B16 /* bon_fastmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bon_fastmath.h; sourceTree = "<group>"; };
+		2A5017302756B68700692B16 /* bon_fastmath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bon_fastmath.m; sourceTree = "<group>"; };
 		2A5017382756B8AE00692B16 /* build_xcframework.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build_xcframework.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -61,8 +61,8 @@
 		2A50172E2756B68700692B16 /* fastmath */ = {
 			isa = PBXGroup;
 			children = (
-				2A50172F2756B68700692B16 /* fastmath.h */,
-				2A5017302756B68700692B16 /* fastmath.m */,
+				2A50172F2756B68700692B16 /* bon_fastmath.h */,
+				2A5017302756B68700692B16 /* bon_fastmath.m */,
 			);
 			path = fastmath;
 			sourceTree = "<group>";
@@ -74,7 +74,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5017322756B68700692B16 /* fastmath.h in Headers */,
+				2A5017322756B68700692B16 /* bon_fastmath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A5017312756B68700692B16 /* fastmath.m in Sources */,
+				2A5017312756B68700692B16 /* bon_fastmath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

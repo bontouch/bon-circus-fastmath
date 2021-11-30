@@ -8,7 +8,7 @@
 #import <Foundation/Foundation.h>
 
 @interface fastmath : NSObject
-
+@property (copy, readonly, nonatomic) NSString *version;
 @end
 
 float fastmath_sinf(float x);

@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "bon_fastmath",
+    name: "bon_fastmath_package",
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
@@ -21,6 +21,6 @@ let package = Package(
         .binaryTarget(
             name: "bon_fastmath", 
             url: "https://github.com/bontouch/bon-circus-fastmath/releases/download/v1.0.0/bon_fastmath.xcframework.zip", 
-            checksum: "ae1f0ae77fd7cabb998d301285e442a0d631e95a8332fce05ca0cc25d7b273c8")
+            checksum: "0f1e655083e688ced0f1f406c4de24ea3bee504d5191da5a4cd47981beb9da1c")
     ]
 )
