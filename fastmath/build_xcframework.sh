@@ -29,10 +29,10 @@ xcodebuild -create-xcframework \
 #    -framework archive/macOS-Catalyst.xcarchive/Products/Library/Frameworks/example.framework
 
 # Package the xcframework into a zip file
-zip -r fastmath.zip fastmath.xcframework
+zip -r bon_fastmath.xcframework.zip bon_fastmath.xcframework
 
 # Compute the checksum for the zip that can be used in a Package.swift file. This value is just printed to the output.
 # The command needs to run in the directory where Package.swift is for some reason.
 pushd ..
-swift package compute-checksum fastmath/fastmath.xcframework.zip
+swift package compute-checksum fastmath/bon_fastmath.xcframework.zip
 popd

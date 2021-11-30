@@ -19,6 +19,8 @@ let package = Package(
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .binaryTarget(
-            name: "bon_fastmath", url: "https://SERVER_URL/bon_fastmath_1_0_0.xcframework.zip")
+            name: "bon_fastmath", 
+            url: "https://github.com/bontouch/bon-circus-fastmath/releases/download/v1.0.0/bon_fastmath.xcframework.zip", 
+            checksum: "ae1f0ae77fd7cabb998d301285e442a0d631e95a8332fce05ca0cc25d7b273c8")
     ]
 )
