@@ -1,0 +1,4 @@
+module bon_fastmath {
+    umbrella header "bon_fastmath.h"
+    export *
+}

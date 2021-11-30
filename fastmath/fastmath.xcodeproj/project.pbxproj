@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A19B4EE2756DED5006F7178 /* module.modulemap in Headers */ = {isa = PBXBuildFile; fileRef = 2A19B4ED2756DE92006F7178 /* module.modulemap */; settings = {ATTRIBUTES = (Public, ); }; };
 		2A5017312756B68700692B16 /* bon_fastmath.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5017302756B68700692B16 /* bon_fastmath.m */; };
 		2A5017322756B68700692B16 /* bon_fastmath.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A50172F2756B68700692B16 /* bon_fastmath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -24,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2A19B4ED2756DE92006F7178 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
 		2A50172C2756B68700692B16 /* libbon_fastmath.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libbon_fastmath.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A50172F2756B68700692B16 /* bon_fastmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bon_fastmath.h; sourceTree = "<group>"; };
 		2A5017302756B68700692B16 /* bon_fastmath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bon_fastmath.m; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				2A50172F2756B68700692B16 /* bon_fastmath.h */,
 				2A5017302756B68700692B16 /* bon_fastmath.m */,
+				2A19B4ED2756DE92006F7178 /* module.modulemap */,
 			);
 			path = fastmath;
 			sourceTree = "<group>";
@@ -75,6 +78,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5017322756B68700692B16 /* bon_fastmath.h in Headers */,
+				2A19B4EE2756DED5006F7178 /* module.modulemap in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +264,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TPWEY3KE9V;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,6 +279,7 @@
 			buildSettings = {
 				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = TPWEY3KE9V;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
